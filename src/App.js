@@ -1,5 +1,5 @@
 import React from 'react'
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Routes, Route } from 'react-router-dom';
 import AddSong from './pages/AddSong';
@@ -8,7 +8,7 @@ import AddAlbum from './pages/AddAlbum';
 import ListAlbum from './pages/ListAlbum';
 import SideBar from './components/SideBar';
 import NavBar from './components/NavBar';
-export const url = 'http://localhost:4000';
+export const url = 'https://spotify-backend-2-xrz7.onrender.com';
 const App = () => {
   return (
     <div className='flex items-start min-h-screen'>
